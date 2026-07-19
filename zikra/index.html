@@ -22,7 +22,7 @@
   <div class="wrap">
     <div class="panel">
       <h1>Privacy Policy — Zikra: Flashcards &amp; Memory</h1>
-      <p class="muted">Last updated: 6 July 2026</p>
+      <p class="muted">Last updated: 19 July 2026</p>
 
       <p>Zikra is a <strong>local-first</strong> spaced-repetition flashcard app. It works
       without an account, and your study data stays on your device. This policy explains
@@ -32,8 +32,9 @@
       <ul>
         <li><strong>No account required.</strong> Your decks, cards, images, and study
         history are stored only on your device.</li>
-        <li><strong>No ads, no third-party analytics, no tracking.</strong> We don't sell
-        or share your personal data.</li>
+        <li><strong>Free accounts see one child-safe ad only after completing a study
+        session.</strong> Ads never appear while you are studying cards, and Premium removes
+        ads entirely.</li>
         <li><strong>Optional AI features</strong> send the text (and any photos) you choose
         to turn into flashcards to an AI provider so it can generate cards. If you don't use
         AI, none of your card content leaves your device.</li>
@@ -68,6 +69,21 @@
       against Google's servers. You can manage or cancel your subscription at any time in the
       Google Play Store.</p>
 
+      <h2>Advertising (free version only)</h2>
+      <p>The free version uses <strong>Google AdMob</strong> to show a single interstitial ad
+      at the natural pause after a completed study session. No ad is shown while a card is on
+      screen, when there is nothing to study, or to a user whose Premium entitlement is active.
+      Premium users do not initialize or request ads.</p>
+      <p>Because Zikra's Play audience includes children, every ad request is configured as
+      child-directed and under the age of consent, and the maximum ad content rating is set to
+      <strong>G</strong>. These ads are not personalized using behavioral profiles.</p>
+      <p>For ad delivery, measurement, analytics, and fraud prevention, the Google Mobile Ads
+      SDK may automatically collect and share a general location inferred from the device's IP
+      address, app and ad interactions (such as app launches, taps, and video views), diagnostic
+      information (such as performance and crash-related data), and device or app identifiers.
+      This information is encrypted in transit. Google provides controls for limited ads and
+      advertising identifiers in Android settings.</p>
+
       <h2>Text-to-speech and reminders</h2>
       <ul>
         <li>Optional read-aloud uses your device's built-in <strong>text-to-speech</strong>;
@@ -77,29 +93,35 @@
 
       <h2>Permissions</h2>
       <ul>
-        <li><code>INTERNET</code> — only for the optional AI features and subscription
-        verification.</li>
+        <li><code>INTERNET</code> — for optional AI features, subscription verification, and
+        ads in the free version.</li>
+        <li><code>com.google.android.gms.permission.AD_ID</code> — included by the Google Mobile
+        Ads SDK for ad delivery and measurement; Android lets users reset or delete the
+        advertising ID.</li>
         <li><code>POST_NOTIFICATIONS</code> — only for optional study reminders.</li>
         <li><code>com.android.vending.BILLING</code> — only for the optional Premium
         subscription.</li>
       </ul>
 
       <h2>Data we do NOT collect</h2>
-      <p>No accounts, no contacts, no location, no advertising identifiers, and no
-      third-party analytics or behavioral tracking.</p>
+      <p>We do not require accounts or collect contacts, precise location, or the contents of
+      your locally stored decks and study history. We do not sell personal data.</p>
 
       <h2>Third-party services</h2>
       <ul>
         <li><strong>OpenAI</strong> — generates AI flashcards (managed and own-key modes).</li>
         <li><strong>Google Play</strong> — processes payments and subscriptions.</li>
+        <li><strong>Google AdMob</strong> — serves child-directed, G-rated ads to free users
+        after completed study sessions.</li>
         <li><strong>Cloudflare</strong> — provides the processing infrastructure for the
         managed Zikra AI service.</li>
       </ul>
       <p>Each has its own privacy policy governing its handling of data.</p>
 
       <h2>Children</h2>
-      <p>Zikra is not directed to children under 13, and we do not knowingly collect personal
-      information from children.</p>
+      <p>Zikra is a general-audience study tool that may be used by children. We configure all
+      AdMob requests for child-directed and under-age-of-consent treatment with a G content
+      rating. We do not knowingly collect children's card content or personal information.</p>
 
       <h2>Changes to this policy</h2>
       <p>We may update this policy from time to time. Material changes will be reflected by
